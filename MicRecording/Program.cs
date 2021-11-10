@@ -11,7 +11,7 @@ namespace MicRecording
         static void Main(string[] args)
         {
             float[] micBuffer = new float[MAX_SOUND_LENGTH]; // 5 seconds;
-            float[] soundChunk = new float[48000]; // 1 sec max ;
+            float[] soundChunk = new float[48000]; // 1 sec max knowing we read every frame !
             Int32 micIndex = 0;
             Sound memo = null;
         // Initialize StereoKit
